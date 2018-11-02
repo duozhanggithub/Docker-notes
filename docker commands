@@ -1,0 +1,20 @@
+docker run command to run a container based on centos image 
+docker run centos
+
+list all runing containers
+docker ps
+
+stop running container
+docker stop da6b
+
+list all containers including the stopped container
+docker ps -a
+
+removing all the stopped containers
+docker rm da6b bfbb
+
+list locally available images
+docker images
+
+removing all the images
+docker rmi centos
