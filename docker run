@@ -1,0 +1,11 @@
+run different version of ubuntu
+docker run ubuntu:17.10
+
+run ubuntu image 17.10, print the contents of /etc/hosts
+docker run ubuntu:17.10 cat /etc/hosts
+
+port mapping, map port 8080 on the docker container to 80 on the docker host
+docker run -p 80:8080 jenkins
+
+volume mapping, map local directory /opt/jenkins_data to /var/jenkins_home jenkins
+docker run -p 80:8080 -v /opt/jenkins_data:/var/jenkins_home jenkins
