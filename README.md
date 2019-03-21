@@ -4,6 +4,8 @@ https://www.udemy.com/learn-docker/learn/v4/content
 
 docker run
 
+docker run Ubuntu:17.04 (tag), run a certain version ubuntu
+
 -run container from an image, for the first time, it also pull an image
 
 docker ps
