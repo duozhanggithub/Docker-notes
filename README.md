@@ -2,6 +2,10 @@
 Selected exercises solutions for udemy docker course
 https://www.udemy.com/learn-docker/learn/v4/content
 
+Why use docker
+
+![alt text](https://github.com/duozhanggithub/udemy-docker-course/blob/master/explaination%20of%20containers.png)
+
 docker run
 
 docker run Ubuntu:17.04 (tag), run a certain version ubuntu
@@ -48,3 +52,6 @@ docker run -it 'image' bash
 -run image and use it immediately, if image is ubuntu, then run a base image of ubuntu system
 -after enter ubuntu, we can run for example, cat /etc/*release*
 
+port mapping
+
+![alt text](https://github.com/duozhanggithub/udemy-docker-course/blob/master/docker%20port%20mapping.png)
