@@ -8,6 +8,10 @@ docker run Ubuntu:17.04 (tag), run a certain version ubuntu
 
 -run container from an image, for the first time, it also pull an image (from docker hub)
 
+-docker run -d xxx (detach mode)
+
+-docker attach xxx (attach again)
+
 docker ps
 
 -list all running containers
@@ -43,5 +47,4 @@ docker run -it 'image' bash
 
 -run image and use it immediately, if image is ubuntu, then run a base image of ubuntu system
 -after enter ubuntu, we can run for example, cat /etc/*release*
-
 
