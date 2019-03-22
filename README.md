@@ -55,3 +55,7 @@ docker run -it 'image' bash
 port mapping
 
 ![alt text](https://github.com/duozhanggithub/udemy-docker-course/blob/master/docker%20port%20mapping.png)
+
+docker run -p 8080:8080 jenkins (order is to:from)
+
+docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
