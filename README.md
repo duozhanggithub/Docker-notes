@@ -6,7 +6,7 @@ docker run
 
 docker run Ubuntu:17.04 (tag), run a certain version ubuntu
 
--run container from an image, for the first time, it also pull an image
+-run container from an image, for the first time, it also pull an image (from docker hub)
 
 docker ps
 
