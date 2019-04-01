@@ -83,4 +83,9 @@ e.g.
 FROM ubuntu
 
 CMD sleep 5 or CMD ["sleep", "5"]
+
 ![alt text](https://github.com/duozhanggithub/Docker-notes/blob/master/Dockerfile%20procedures.png)
+
+CMD and ENTRYPOINT
+
+![alt text](https://github.com/duozhanggithub/Docker-notes/blob/master/CMD%20and%20Entrypoint.png)
