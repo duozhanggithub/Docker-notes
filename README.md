@@ -64,4 +64,16 @@ docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins
 
 In the format of INSTRUCTION ARGUMENT
 
+FROM
+
+RUN
+
+ADD (add files)
+
+ENV (set environment variables)
+
+WORKDIR (define working directory)
+
+CMD (define default command)
+
 ![alt text](https://github.com/duozhanggithub/Docker-notes/blob/master/Dockerfile%20procedures.png)
