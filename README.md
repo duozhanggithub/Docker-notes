@@ -59,3 +59,9 @@ docker run Ubuntu:17.04 (tag), run a certain version ubuntu
 docker run -p 8080:8080 jenkins (order is to:from)
 
 docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+
+# Docker file
+
+In the format of INSTRUCTION ARGUMENT
+
+[alt text](https://github.com/duozhanggithub/Docker-notes/blob/master/Dockerfile%20procedures.png)
