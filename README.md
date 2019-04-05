@@ -108,6 +108,8 @@ Deploy 5 instances
 
 ![alt text](https://github.com/duozhanggithub/Docker-notes/blob/master/Docker%20networking.png)
 
+![alt text](https://github.com/duozhanggithub/Docker-notes/blob/master/Docker%20networking%20example.png)
+
 Docker network: Bridge, None, Host
 
 Bridge: The Bridge network is a private internal network created by Docker on the host. All the containers attached 
