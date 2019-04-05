@@ -95,3 +95,14 @@ CMD and ENTRYPOINT
 # Docker compose
 
 ![alt text](https://github.com/duozhanggithub/Docker-notes/blob/master/Docker%20compose%20example.png)
+
+# Docker swarm
+
+![alt text](https://github.com/duozhanggithub/Docker-notes/blob/master/Docker%20Swarm.png)
+
+Deploy 5 instances
+
+![alt text](https://github.com/duozhanggithub/Docker-notes/blob/master/Docker%20Swarm%20example.png)
+
+# Docker networking
+
