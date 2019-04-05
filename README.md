@@ -6,7 +6,9 @@ https://www.udemy.com/learn-docker/learn/v4/content
 
 ![alt text](https://github.com/duozhanggithub/udemy-docker-course/blob/master/explaination%20of%20containers.png)
 
-# docker run
+# Docker basic operations
+
+docker run
 
 docker run Ubuntu:17.04 (tag), run a certain version ubuntu
 
