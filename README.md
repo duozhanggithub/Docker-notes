@@ -91,3 +91,7 @@ CMD sleep 5 or CMD ["sleep", "5"]
 CMD and ENTRYPOINT
 
 ![alt text](https://github.com/duozhanggithub/Docker-notes/blob/master/CMD%20and%20Entrypoint.png)
+
+# Docker compose
+
+![alt text](https://github.com/duozhanggithub/Docker-notes/blob/master/Docker%20compose%20example.png)
