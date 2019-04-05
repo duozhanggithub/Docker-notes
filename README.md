@@ -106,3 +106,15 @@ Deploy 5 instances
 
 # Docker networking
 
+![alt text](https://github.com/duozhanggithub/Docker-notes/blob/master/Docker%20networking.png)
+
+Docker network: Bridge, None, Host
+
+Bridge: The Bridge network is a private internal network created by Docker on the host. All the containers attached 
+to this network by default and they get an internal IP address.
+
+To access any of these containers from the outside world, you must map ports of these containers to the docker host
+
+Host: Another way to access the containers externally is to associate the containers to the host network. This takes out any network isolation between the docker host and the docker container. Meaning if you were to run a web server on port 5000 in a web-app containe.
+
+None: With the none network, containers are not a task to any network and doesn't have any access to the external network or other containers.
